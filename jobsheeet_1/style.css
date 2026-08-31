@@ -1,0 +1,13 @@
+/* style.css */
+p {
+    font-size: 20px;
+}
+#nama {
+    color: rgb(199, 17, 17);
+    line-height: 1.5;
+    text-align: center;
+}
+.bio {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
