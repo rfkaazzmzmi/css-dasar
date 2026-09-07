@@ -1,0 +1,27 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e0e4e9
+}
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.867)
+}
+p {
+    line-height: 1.6;
+    text-align: justify;
+    color:rgb(23, 212, 212);
+    background-color: aqua;
+}
+#nama {
+    color: rgb(47, 199, 17);
+    font-weight: bold;
+    text-align: center;
+    background-color: aqua;
+}
+.bio {
+    color: rgb(13, 214, 40);
+    text-align: center;
+}
