@@ -2,7 +2,7 @@
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-color: #fd3131;
+background-color: #999;
 padding: 15px 30px;
 }
 
@@ -10,7 +10,7 @@ padding: 15px 30px;
 font-weight: bold;
 border: 1px solid #999;
 padding: 5px 15px;
-background-color: #f9fd10;
+background-color: #999;
 }
 
 .nav-menu a {
@@ -19,7 +19,7 @@ text-decoration: none;
 color: #333;
 border: 1px solid #999;
 padding: 5px 10px;
-background-color: #ecfc15;
+background-color: #999;
 }
 
 .hero {
@@ -55,4 +55,76 @@ align-items: center;
 justify-content: center;
 background-color: #f9f9f9;
 color: #888;
+}
+
+.galeri-produk {
+padding: 40px 30px;
+}
+
+.galeri-produk h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 20px;
+}
+
+.kartu {
+border: 1px solid #ccc;
+padding: 15px;
+border-radius: 8px;
+background-color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.gambar {
+height: 200px;
+border: 1px solid #ccc;
+background-color: #f0f0f0;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 15px;
+color: #777;
+}
+
+.kartu h3 {
+font-size: 16px;
+margin-bottom: 5px;
+}
+
+.kartu .harga {
+font-weight: bold;
+margin-bottom: 15px;
+color: #333;
+}
+
+.btn-beli {
+background-color: #999;
+color: white;
+padding: 8px;
+border-radius: 4px;
+text-align: center;
+}
+
+.footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #999;
+padding: 15px 30px;
+margin-top: 20px;
+}
+
+.sosial-link a {
+margin-left: 10px;
+border: 1px solid #999;
+padding: 2px 8px;
+background-color: #999;
+color: #333;
 }
