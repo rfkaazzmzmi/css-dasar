@@ -15,7 +15,6 @@ background-color: #999;
 
 .nav-menu a {
 margin-left: 15px;
-text-decoration: none;
 color: #333;
 border: 1px solid #999;
 padding: 5px 10px;
@@ -84,8 +83,8 @@ justify-content: space-between;
 
 .gambar {
 height: 200px;
+widht: 300px
 border: 1px solid #ccc;
-background-color: #f0f0f0;
 display: flex;
 align-items: center;
 justify-content: center;
