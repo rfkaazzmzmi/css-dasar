@@ -1,0 +1,174 @@
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #999;
+padding: 15px 30px;
+border: 1px solid;
+border-radius: 3px;
+margin-bottom: 20px;
+}
+
+.logo {
+font-weight: bold;
+border: 1px solid #999;
+padding: 5px 15px;
+background-color: #999;
+border: 1px solid;
+border-radius: 3px;
+display: flex;
+}
+
+.nav-menu a {
+margin-left: 15px;
+color: #333;
+border: 1px solid #999;
+padding: 5px 10px;
+background-color: #999;
+display: inline-block;
+text-decoration: none;
+border-radius: 3px;
+}
+
+.hero {
+display: flex;
+align-items: center;
+gap: 20px;
+flex-wrap: wrap;
+padding: 40px 30px;
+background-color: #fff;
+border-bottom: 1px solid #ddd;
+}
+
+.hero-text {
+flex: 1;
+min-width: 280px;
+}
+
+.hero-text h1 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.hero-text p {
+color: #666;
+}
+
+.hero-image {
+width: 280px;
+height: 200px;
+border: 1px solid #999;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #f9f9f9;
+color: #888;
+}
+
+.galeri-produk {
+padding: 40px 30px;
+}
+
+.galeri-produk h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 20px;
+}
+
+.kartu {
+border: 1px solid #ccc;
+padding: 15px;
+border-radius: 8px;
+background-color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.gambar {
+height: 200px;
+widht: 300px
+border: 1px solid #ccc;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 15px;
+color: #777;
+}
+
+.kartu h3 {
+font-size: 16px;
+margin-bottom: 5px;
+}
+
+.kartu .harga {
+font-weight: bold;
+margin-bottom: 15px;
+color: #333;
+}
+
+.btn-beli {
+background-color: #999;
+color: white;
+padding: 8px;
+border-radius: 4px;
+text-align: center;
+}
+
+.footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #999;
+padding: 15px 30px;
+margin-top: 20px;
+}
+
+.sosial-link a {
+margin-left: 10px;
+border: 1px solid #999;
+padding: 2px 8px;
+background-color: #999;
+color: #333;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+    padding: 1rem;
+    flex-direction: column;
+    }
+
+    .hero {
+    align-items: stretch;
+    padding: 2rem 1rem;
+    }
+
+    .hero-text h1 {
+    font-size: 1.75rem;
+    }
+
+    .kartu{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .galeri-produk {
+    padding: 2rem 1rem;
+    }
+
+    .footer {
+    flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+    padding: 1rem;
+    flex-direction: column;
+    }
+}
